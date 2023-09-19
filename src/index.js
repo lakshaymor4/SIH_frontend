@@ -7,6 +7,8 @@ import Seco from "./app/seco";
 import Th from "./app/thir";
 import Thi from "./app/th2";
 import Four from "./app/fo";
+import Fii from "./app/fiv";
+import Foot from "./app/foot";
 const Mainn=()=>{
 return(
     <>
@@ -16,6 +18,8 @@ return(
     <Th />
     <Thi />
     <Four />
+    <Fii />
+    <Foot />
     </>
 )
 
