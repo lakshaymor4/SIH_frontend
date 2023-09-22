@@ -42,7 +42,7 @@ const Fom = ()=>{
     };
     axios(con)
       .then((resu) =>  
-        setResu(resu.data)
+        setResu("You Might Have "+resu.data)
     )
       .catch((reu) => console.log(reu));
     }
@@ -182,7 +182,7 @@ const Fom = ()=>{
 
 
         <button type="submit" onClick={handle} >Submit</button>
-        <h1>You have {resu}</h1>
+        <h1>{resu}</h1>
         </div>
     )
 }

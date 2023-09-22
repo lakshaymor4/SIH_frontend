@@ -10,18 +10,27 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+
+import ErrorBoundary from "./app/err";
+
 const router = createBrowserRouter([
     {
         path:"/",
-        element:<Home />
+        element:<Home />,
+        
+
     },
+
     {
         path:"/profile",
-        element:<Prof />
+        element:<ErrorBoundary/>
     },{
         path:"/test",
-        element:<Fom />
-    } 
+        element:<ErrorBoundary />
+    },{
+        path:"/about",
+        element:<ErrorBoundary />
+    }
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);
