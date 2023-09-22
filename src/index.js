@@ -13,7 +13,7 @@ import {
 } from "react-router-dom";
 
 import ErrorBoundary from "./app/err";
-
+import Loc from "./app/propic";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -31,7 +31,11 @@ const router = createBrowserRouter([
     }, {
         path: "/about",
         element: <ErrorBoundary />
-    }
+    }, {
+        path: "/login",
+        element: <Loc />
+    },
+
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);

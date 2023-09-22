@@ -8,7 +8,7 @@ import Four from "./fo";
 import Fii from "./fiv";
 import Foot from "./foot";
 import Fom from "./sympt";
-import Loc from "./propic";
+
 const Home = () => {
     return (
         <>
@@ -20,7 +20,7 @@ const Home = () => {
             <Four />
             <Fii />
             <Foot />
-            <Loc />
+
         </>
     )
 }
