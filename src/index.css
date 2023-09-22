@@ -11,3 +11,43 @@
 .d22{
     padding-left: 5rem;
 }
+#w1{
+    width: 25em;
+    height: 2em;
+}
+.side{
+    
+    margin-bottom: 3%;
+    padding-left: 5%;
+}
+.main-form{
+    margin-left: 45%;
+    background-color: white;
+  
+    width: 30%;
+    
+    margin-top: 5%;
+}
+.my_form{
+    margin-left: 10%;
+}
+input{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    border-radius: 1.5rem;
+    width: 18rem;
+    margin-top: 2%;
+    background-color: #FEF4E6;
+}
+textarea{
+    background-color: #FEF4E6;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 18rem;
+    height: 5rem;
+    resize: none;
+}
+

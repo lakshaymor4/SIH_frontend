@@ -9,12 +9,12 @@ const Four = ()=>{
     return(
         <div className="mt-32 mb-20">
         <div className="flex flex-row justify-around">
-            <Fo img = {lab2} but = "ENTER SYMPTOMS" />
-            <Fo img = {key} but = "BOOK APPOINTMENT" />
+            <Fo img = {lab2} but = "ENTER SYMPTOMS" li="symp" />
+            <Fo img = {key} but = "BOOK APPOINTMENT" li="appoin"/>
         </div>
          <div className="flex flex-row justify-around mt-20 ">
-            <Fo img = {grp} but = "CALL AMBULANCE" />
-            <Fo img = {f_doc} but = "DOCTORS LIST" className="d22" />
+            <Fo img = {grp} but = "CALL AMBULANCE"li="amb" />
+            <Fo img = {f_doc} but = "DOCTORS LIST" className="d22" li="doc"/>
         </div>
         </div>
     )

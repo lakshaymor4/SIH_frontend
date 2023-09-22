@@ -7,7 +7,7 @@ import Thi from "./th2";
 import Four from "./fo";
 import Fii from "./fiv";
 import Foot from "./foot";
-import Fom from "./sympt";
+
 
 const Home = ()=>{
     return(
@@ -20,7 +20,7 @@ const Home = ()=>{
     <Four />
     <Fii />
     <Foot />
-
+   
         </>
     )
 }

@@ -4,6 +4,7 @@ import Home from "./app/home";
 import "./index.css"
 import Fom from "./app/sympt";
 import Prof from "./app/profile";
+import Appo from "./app/appoint"; 
 import {
   createBrowserRouter,
   RouterProvider,
@@ -30,6 +31,9 @@ const router = createBrowserRouter([
     },{
         path:"/about",
         element:<ErrorBoundary />
+    },{
+        path:"/appoin",
+        element:<Appo />
     }
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
