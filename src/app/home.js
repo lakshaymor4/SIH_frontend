@@ -9,17 +9,17 @@ import Fii from "./fiv";
 import Foot from "./foot";
 import Fom from "./sympt";
 
-const Home = ()=>{
-    return(
+const Home = () => {
+    return (
         <>
-    <Navbar />
-    <First/>
-    <Seco />
-    <Th />
-    <Thi />
-    <Four />
-    <Fii />
-    <Foot />
+            <Navbar />
+            <First />
+            <Seco />
+            <Th />
+            <Thi />
+            <Four />
+            <Fii />
+            <Foot />
 
         </>
     )
