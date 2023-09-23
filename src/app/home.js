@@ -9,8 +9,8 @@ import Fii from "./fiv";
 import Foot from "./foot";
 
 
-const Home = ()=>{
-    return(
+const Home = () => {
+    return (
         <>
     <Navbar />
     <First/>
