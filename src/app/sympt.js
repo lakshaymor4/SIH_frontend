@@ -9,14 +9,14 @@ const Fom = ()=>{
    const handl = (e)=>{
     if(e.target.checked==true){
         sym.push(e.target.name.trim())
-        console.log(sym)
+    
     }
    else{
     
     for(i=0;i<sym.length;i++){
-        if(e.target.name==sym[i]){
+        if(e.target.name.trim()==sym[i]){
             sym[i] = "0"
-            console.log("Removed")
+      
             break
         }
     }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import calen from "../assets/images/calen.jpg"
+import Navbar from './navbar';
 function MyForm() {
   const initialFormData = {
     name: '',
@@ -52,7 +53,7 @@ function MyForm() {
 
   return (
     <>
-    
+    <Navbar />
             <div className="flex flex-row pt-28 ml-10 ">
                <div className="pl-20 "> <h1 className="font-bold text-5xl text-indigo-900">Appointment<br /> <div className="pt-4">Booking</div></h1>
                  <p className="text-xs text-slate-500 mt-4 pr-20">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ducimus nulla, molestias velit commodi cumque, quibusdam libero dignissimos esse quia voluptatum soluta unde laudantium eius mollitia maxime officia deleniti autem?
@@ -63,7 +64,7 @@ function MyForm() {
         <img src = {calen} className="cover h-full"/>
         </div>
     <div className='bg-[url("./assets/images/back.jpg")] flex flex-col items-end pr-20 pt-20'>
-    <div className='main-form pl-8 pt-8 pr-10 rounded-[2.5em] '>
+    <div className='main-form pl-8 pt-8 pr-10 bg-white rounded-[2.5em] '>
       
       <form onSubmit={handleSubmit}>
         <div className='side '>

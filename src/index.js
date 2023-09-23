@@ -4,7 +4,8 @@ import Home from "./app/home";
 import "./index.css"
 import Fom from "./app/sympt";
 import Prof from "./app/profile";
-
+import MyForm from "./app/appoint";
+import Sear from "./app/search";
 import {
     createBrowserRouter,
     RouterProvider,
@@ -24,17 +25,23 @@ const router = createBrowserRouter([
 
     {
         path: "/profile",
-        element: <ErrorBoundary />
+        element: <Prof />
     }, {
         path: "/test",
-        element: <ErrorBoundary />
+        element: <Fom />
     }, {
         path: "/about",
         element: <ErrorBoundary />
     }, {
         path: "/login",
         element: <Loc />
-    },
+    },{
+        path:"/appoin",
+        element:<MyForm />
+    },{
+        path:"/search",
+        element:<Sear />
+    }
 
 ])
 const root = ReactDOM.createRoot(document.getElementById("root"));
